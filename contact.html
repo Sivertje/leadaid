@@ -62,6 +62,7 @@
       </div>
     </div>
 
+    <!-- Contact form -->
     <section class="ftco-section contact-section ftco-degree-bg">
       <div class="container bg-light">
         <div class="row d-flex mb-5 contact-info">
@@ -84,21 +85,21 @@
         </div>
         <div class="row block-9">
           <div class="col-md-12 pr-md-5">
-            <form action="#">
+            <form class="contact-form" action="contactform.php" method="post">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Fullt Navn">
+                <input type="text" name="name" class="form-control" placeholder="Fullt Navn">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Epost">
+                <input type="text" name="mail" class="form-control" placeholder="Epost">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Emne">
+                <input type="text" name="subject" class="form-control" placeholder="Emne">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Melding"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Melding"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Melding" class="btn btn-primary py-3 px-5">
+                <input name="submit" type="submit" value="Send Melding" class="btn btn-primary py-3 px-5">
               </div>
             </form>
 
@@ -108,8 +109,9 @@
         </div>
       </div>
     </section>
+    <!-- Contact form end -->
 
-
+   <!-- footer start -->
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
