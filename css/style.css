@@ -2044,8 +2044,8 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(120, 213, 239, 0.5); }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
+  color: #2C4C58;
+  background-color: #2C4C58;
   border-color: #6c757d; }
   .btn-secondary:hover {
     color: #fff;
@@ -7462,8 +7462,6 @@ h1, h2, h3, h4, h5,
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 ); }
 
 #particles-js {
